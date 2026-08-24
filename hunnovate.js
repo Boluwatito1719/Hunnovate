@@ -11,8 +11,9 @@ mysub.onclick = function HunnovatePassword() {
     const Random1 = Math.floor(Math.random() * alpha.length);
     const Random2 = Math.floor(Math.random() * num.length);
     const Random3 = Math.floor(Math.random() * special.length);
+     const Random4 = Math.floor(Math.random() * special.length);
     
-    let clicks = "Hunno" + "_" + word[Random] + alpha[Random1] + num[Random2]+"_"+ special[Random3] + special[Random3];
+    let clicks = "Hunno" + "_" + word[Random] + alpha[Random1] + num[Random2]+"_"+ special[Random3] + special[Random4];
     TheGen.textContent = clicks;
     return clicks;
 };
